@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/formulario_toolbar"
+        layout="@layout/toolbar" />
+
+    <EditText
+        android:id="@+id/activity_formuario_aluno_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Nome"
+        android:inputType="textCapWords" />
+
+    <EditText
+        android:id="@+id/activity_formuario_aluno_telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Telefone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/activity_formuario_aluno_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <RatingBar
+        android:id="@+id/activity_formulario_aluno_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:max="5"
+        android:numStars="5" />
+
+
+</LinearLayout>
